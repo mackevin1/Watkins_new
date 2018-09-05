@@ -1,0 +1,36 @@
+/* styles for the forecast_compact */
+
+.compact td {
+    vertical-align: top;
+    text-align: right;
+}
+.first-column {
+    text-align: right;
+}
+.compact .last-column {
+    text-align: left;
+}
+.row-outlook {
+    height: 36px;
+}
+.row-day {
+    text-transform: uppercase;
+}
+.row-wind {
+}
+.row-pop {
+}
+.row-precip {
+}
+.row-obvis {
+}
+.outlook-img {
+    width: 36px;
+}
+.precip-img {
+    width: 36px;
+}
+.obvis-img {
+    width: 36px;
+}
+

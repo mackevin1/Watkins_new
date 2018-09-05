@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>agLANs Portal</title>
+<meta charset="utf-8">
+            <META http-equiv="refresh" content="180">
+<link href="../styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<!-- Weather Forecast -->
+<script type="text/javascript" src="../lib/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="../lib/jquery.jdigiclock.js"></script>
+ <script>
+    $(function(){
+      $("#divag1").load("../compact.html");
+    });
+    $(function(){
+      $("#divag2").load("mob102.html");
+    });
+    $(function(){
+      $("#divag3").load("mob103.html");
+    });
+    $(function(){
+      $("#divag4").load("sum104.html");
+    });
+    $(function(){
+      $("#divag5").load("sum105.html");
+    });
+ </script>
+
+ <style type="text/css">
+<!--
+.style1 {
+	color: #ffffff
+}
+-->
+ </style>
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<div class="wrapper row0">
+  <nav id="mainav" class="clear"> 
+    <!-- ################################################################################################ -->
+    <ul class="clear">
+       <li><a href="https://ranches.aglans.com:24933"><img src="../aglanhori.png"width="280" height="55"></a></li>
+       <li class="active"><a href="https://ranches.aglans.com:24933">Home</a></li>
+      <li><a class="drop" href="#">Video</a>
+        <ul>
+          <li><a href="http://10.26.0.221/zm" target="_blank">ZM Server</a></li>
+          </ul>
+      </li>
+      <li><a class="drop" href="#">Weather</a>
+        <ul>
+          <li><a href="https://weather.aglans.com:24933/16000-103">Peaches</a></li>
+          <li><a href="https://weather.aglans.com:24933/16000-102">Canal</a></li>
+        </ul>
+      </li>
+      <li><a href="http://aglans.basestation3.com:8080/BaseStation3/pages" target="_blank">Irrigation</a></li>
+      <li><a href="#">Energy Management</a></li>
+     
+    </ul>
+  </nav>
+</div>
+<!-- ##########################   HEADING SECTION START  ########################### --> 
+<div class="wrapper row1">
+  <header id="header" class="clear"> 
+    <div id="logo">
+      <h1><a href="index.html">WATKINS AG </a>(Dev Portal)</h1>
+      <h2>PRODUCTS & SERVICES</h2>
+    </div>
+  </header>
+</div>
+<!-- ######   HEADING SECTION END  >>>>>>  CAMERA SECTION START  ########### --> 
+<div class="wrapper row3">
+<main id="container" class="clear"> 
+<h2 class="font_xxl center">Camera Feeds</h2>
+       <script language="JavaScript" type="text/javascript">
+<!--
+// ==============================================
+// Copyright 2003 by jsCode.com
+// Source: jsCode.com
+// Author: etLux
+// Free for all; but please leave in the header.
+// ==============================================
+
+// Set the font color, face, size, and style...
+
+// Acceptable TheFontFace values are those you
+// normally use in HTML, for instance:
+//     Arial
+//     TimesRoman
+//     Courier
+
+// Acceptable TheFontColor values are any #RRGGBB
+// same as HTML. Remember to use the # sign and
+// enclose in quotes.  Typical values:
+//     #FF0000 is red
+//     #00FF00 is green
+//     #0000FF is blue
+
+// Acceptable TheFontSize values are 2-7.
+
+// Acceptable TheFontStyle values are (exactly!):
+//     plain
+//     bold
+//     italic
+//     bolditalic
+
+var TheFontFace  = "Arial";
+var TheFontColor = "#999999";
+var TheFontSize  = "4";
+var TheFontStyle = "bolditalic"; 
+
+// Set the separator between the date elements;
+// usually use either - or /.
+
+var TheSeparator = "-";
+
+// Show or do not show the day of the week; set
+// yes to show, no not to show.
+
+var ShowDay ="yes";
+
+// Do Not Edit Below This Line
+// ==============================================
+
+var Days = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+var TheDate = new Date();
+
+var TheWeekDay = TheDate.getDay();
+var Day ="";
+if (ShowDay == "yes"){
+    Day = Days[TheWeekDay];
+    Day += " ";}
+
+var TheMonth = TheDate.getMonth() + 1;
+if (TheMonth < 10) TheMonth = "0" + TheMonth;
+
+var TheMonthDay = TheDate.getDate();
+if (TheMonthDay < 10) TheMonthDay = "0" + TheMonthDay;
+
+var TheYear = TheDate.getYear();
+if (TheYear < 1000) TheYear += 1900;
+
+var FontTagLeft  = "";
+var FontTagRight = "";
+
+if (TheFontStyle == "bold"){
+    FontTagLeft = "<b>";
+    FontTagRight ="</b>";}
+    
+if (TheFontStyle == "italic"){
+    FontTagLeft = "<i>";
+    FontTagRight ="</i>";}
+    
+if (TheFontStyle == "bolditalic"){
+    FontTagLeft = "<b><i>"; 
+    FontTagRight = "</i></b>";}    
+
+var D = "";
+D += "<font color='"+TheFontColor+"' face='"+TheFontFace+"' size='"+TheFontSize+"'>";
+D += FontTagLeft+Day+TheMonth+TheSeparator+TheMonthDay+TheSeparator+TheYear+FontTagRight;
+D += "</font>";
+
+document.write(D);
+
+//-->
+</script>  <p></p>
+<ul class="nospace push10 clear">
+      <li class="one_third borderedbox lt_bg first"><img class="img-responsive center-block" src="http://zm01.aglans.com/zm/cgi-bin/nph-zms?mode=jpeg&amp;monitor=18&amp;scale=100&amp;user=watkins&amp;pass=watkins" alt="Gate02" height="220" width="300" />
+     </li>
+      <li class="one_third borderedbox lt_bg"><img class="img-responsive center-block" src="http://zm01.aglans.com/zm/cgi-bin/nph-zms?mode=jpeg&amp;monitor=19&amp;scale=100&amp;user=watkins&amp;pass=watkins" alt="LPR03" height="220" width="300" />
+     </li>
+      <li class="one_third borderedbox lt_bg"><img class="img-responsive center-block" src="http://zm01.aglans.com/zm/cgi-bin/nph-zms?mode=jpeg&amp;monitor=4&amp;scale=100&amp;user=watkins&amp;pass=watkins" alt="Peaches Driveway" height="220" width="300" />
+      </li>
+    </ul>
+    <ul class="nospace push10 clear">
+      <li class="one_third borderedbox lt_bg first"><img class="img-responsive center-block" src="http://zm01.aglans.com/zm/cgi-bin/nph-zms?mode=jpeg&amp;monitor=14&amp;scale=100&amp;user=watkins&amp;pass=watkins" alt="Barn" height="220" width="300" />
+      </li>
+       <li class="one_third borderedbox lt_bg"> <img class="img-responsive center-block" src="http://zm01.aglans.com/zm/cgi-bin/nph-zms?mode=jpeg&amp;monitor=3&amp;scale=100&amp;user=watkins&amp;pass=watkins" alt="Canal Driveway" height="220" width="300" />
+      </li>
+      <li class="one_third borderedbox lt_bg"><img class="img-responsive center-block" src="http://zm01.aglans.com/zm/cgi-bin/nph-zms?mode=jpeg&amp;monitor=17&amp;scale=100&amp;user=watkins&amp;pass=watkins" alt="GaugesO
+" height="220" width="300" />
+     </li>
+    </ul>
+   <p> Bandwidth Usage Warning</p>
+    <p>Please NOTE:
+	This dashboard uses live video streams; video streaming is known to use large amounts of data if left open for long periods of time.
+	We advise making use of WiFi connectivity to avoid overages on cellular data plans.
+	agLANs cannot be held responsible for excess data usage.</p>
+  </main>
+</div>
+<!-- #######################   CAMERA SECTION END  ###############   WEATHER SECTION START  ########################## --> 
+<div class="wrapper row2">
+  <main id="container" class="clear"> 
+    <!-- container body --> 
+    <h2 class="font_xxl center">Weather Stations OPTION I</h2>
+    <div class="two_quarter first">
+      <h6 class="title"><a href="https://weather.aglans.com:24933/16000-103/mobile.html" target="_blank">Peaches</a></h6>
+     <ul class="nospace push10 clear">
+      <li class="one_third borderedbox lt_bg first"><img class="img-responsive center-block" src="../103/outTempGauge.png" alt=""><p>Outside Temp</p>
+      </li>
+      <li class="one_third borderedbox lt_bg"><img class="img-responsive center-block" src="../103/barometerGauge.png" alt=""><p>Barometric Pressure</p>
+     </li>
+    </ul>
+     <ul class="nospace push10 clear">
+      <li class="one_third borderedbox lt_bg first"><img src="../103/windDirGauge.png" class="img-responsive center-block"  alt=""><p>Wind Direction</p>
+      </li>
+
+      <li class="one_third borderedbox lt_bg"><img src="../103/windSpeedGauge.png"class="img-responsive center-block"  alt=""><p>Wind Speed</p></p>
+     </li>
+    </ul>
+   </div>
+    <div class="two_quarter">
+      <h6 class="title"><a href="https://weather.aglans.com:24933/16000-102/mobile.html" target="_blank">Canal</a></h6>
+    <ul class="nospace push10 clear">
+      <li class="one_third borderedbox lt_bg first"><img class="img-responsive center-block" src="../102/outTempGauge.png" alt=""><p>Outside Temp</p>
+      </li>
+      <li class="one_third borderedbox lt_bg"><img class="img-responsive center-block" src="../102/barometerGauge.png" alt=""><p>Barometric Pressure</p>
+     </li>
+    </ul>
+     <ul class="nospace push10 clear">
+      <li class="one_third borderedbox lt_bg first"><img src="../102/windDirGauge.png" class="img-responsive center-block"  alt=""><p>Wind Direction</p>
+      </li>
+
+      <li class="one_third borderedbox lt_bg"><img src="../102/windSpeedGauge.png"class="img-responsive center-block"  alt=""><p>Wind Speed</p></p>
+     </li>
+    </ul>
+   </div>
+  </main>
+</div>
+<!-- ####################################   WEATHER SECTION I END  ########################## --> 
+<!-- ######################   WEATHER SECTION II START  ########################## --> 
+<div class="wrapper row2">
+  <main id="container" class="clear"> 
+    <!-- container body --> 
+    <h2 class="font_xxl center">Weather Stations OPTION II</h2>
+    <div class="two_quarter first">
+       <h6 class="title"><a href="https://weather.aglans.com:24933/16000-103/mobile.html" target="_blank">Peaches</a></h6>
+<div id="divag3"></div>
+   </div>
+    <div class="two_quarter">
+      <h6 class="title"><a href="https://weather.aglans.com:24933/16000-102/mobile.html" target="_blank">Canal</a></h6>
+     <div id="divag2"></div>
+   </div>
+  </main>
+</div>
+<!-- ####################################   WEATHER SECTION II END  ########################## --> 
+<!-- ######################   WEATHER SECTION III START  ########################## --> 
+<div class="wrapper row2">
+    <main id="container" class="clear"> 
+     <h2 class="font_xxl center">Weather Stations OPTION III</h2>
+   <div class="one_half first">
+    <h6 class="title"><a href="https://weather.aglans.com:24933/16000-103/mobile.html" target="_blank">SAMPLE I</a></h6>
+     <div id="divag4"></div>
+   </div>
+    <div class="one_half">
+    <h6 class="title"><a href="https://weather.aglans.com:24933/16000-103/mobile.html" target="_blank">SAMPLE II</a></h6>
+    <div id="divag5"></div>
+    </div>
+   </div>
+  </main>
+
+</div>
+<!-- ####################################   WEATHER SECTION III END  ########################## --> 
+
+<!-- ###############   FOOTER SECTION START   ########################## -->
+<div class="wrapper row4">
+  <footer id="footer" class="clear"> 
+    <div class="one_third first">
+      <h6 class="title">Support</h6>
+      <address class="push30">
+      TechBridge International<br>
+      7325 Roseville Road<br>
+      Sacramento, CA 95842
+      </address>
+      <ul class="nospace">
+        <li class="push10"><span class="icon-time"></span> Mon. - Fri. 7:00am - 5:00pm</li>
+        <li class="push10"><span class="icon-phone"></span> +1-800-747-1522</li>
+        <li><span class="icon-envelope-alt"></span> helpdesk@techbridge.solutions</li>
+      </ul>
+    </div>
+    <div class="one_third">
+      <h6 class="title">Network Status  [<a href="#">Coming Soon &raquo;</a>]</h6>
+      <ul class="nospace clear ftgal">
+        <li class="one_third first"><a href="#"><img src="../images/bns.gif" alt=""></a></li>
+        <li class="one_third"><a href="#"><img src="../images/mesh.gif" alt=""></a></li>
+        <li class="one_third"><a href="#"><img src="../images/clients.gif" alt=""></a></li>
+        <li class="one_third first"><a href="#"><img src="../images/video.gif" alt=""></a></li>
+        <li class="one_third"><a href="#"><img src="../images/weather.gif" alt=""></a></li>
+        <li class="one_third"><a href="#"><img src="../images/eb.gif" alt=""></a></li>
+      </ul>
+    </div>
+    <div class="one_third">
+      <h6 class="title">NWS Forecast</h6>
+      <ul class="nospace clear ftgal">
+        <div id="divag1"></div>
+      </ul>
+    </div>
+    <!-- ################################################################################################ --> 
+  </footer></div>
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="clear"> 
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="www.techbridge.soltutions">agLANs</a></p>
+    <!-- ################################################################################################ --> 
+  </div>
+</div>
+</body>
+</html>
+

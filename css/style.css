@@ -1,0 +1,39 @@
+figcaption {
+     width: 80%;
+    margin: auto;
+    font-size: 14px;                        
+}
+#splashscreen {
+    position:absolute;
+    top:10%;
+    left:0;
+right:0;
+    bottom:0;
+    width:800px;
+height:600px;
+    background-color:white;
+background-image:url('http://www.aglans.com/wp-content/uploads/2016/07/agLANs_header_II.jpg');
+background-size:cover;
+z-index:10000;
+  margin-left: auto; 
+  margin-right: auto; 
+}
+#splashscreen h2 {
+font-size:30px;
+}
+#splashscreen a{
+text-align:center;
+display:block;
+background-color:#3aaa35;
+color:#fff;
+padding: 10px;
+    bottom: 20px;
+    right: 40%;
+position:absolute;
+font-size:20px;
+}
+#black {
+width:100%;
+min-height:100vh;
+background-color:RGBa(0,0,0,0.25);
+}
