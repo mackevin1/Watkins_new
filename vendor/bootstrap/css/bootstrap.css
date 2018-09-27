@@ -12,6 +12,9 @@ html {
 body {
   margin: 0;
 }
+img .photo{
+  width:25%!important;
+}
 article,
 aside,
 details,
